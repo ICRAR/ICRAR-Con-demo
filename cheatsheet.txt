@@ -1,0 +1,33 @@
+ * Clone repository (you did this already!)
+
+   git clone <url>
+
+ * Status of local repository
+
+   git status
+
+ * Show differences (not committed yet)
+
+   git diff
+
+ * Commit changes
+
+    git commit <file1> <file2> ...
+
+ * Add new files to version control:
+
+    git add <newfile1> <newfile2> ...
+
+ * Show log
+
+    git log
+    git log --oneline
+    git log --oneline --graph
+
+ * Show commits that affected each line of a file
+
+    git blame <file>
+
+ * Jump to a different point in history
+
+    git checkout <commit-id>
